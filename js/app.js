@@ -20,24 +20,24 @@ for (i = 0; i < 100; i++) {
   if (z % 3 === 0 && z % 5 === 0) {
     // quando i + 1 diviso 3 e i + 1 diviso 5 sono === 0 allora stampa z + ' FizzBuzz'
     console.log(z + " FizzBuzz");
-    paste.append += `
+    paste.innerHTML += `
     <div>${z + " FizzBuzz"}</div>
     `;
   } else if (z % 5 === 0) {
     // quando ii + 1 diviso 5 è === 0 allora stampa z + ' Buzz'
     console.log(z + " Buzz");
-    paste.append += `
+    paste.innerHTML += `
     <div>${z + " Buzz"}</div>
     `;
   } else if (z % 3 === 0) {
     // quando ii + 1 diviso 3 è === 0 allora stampa z + ' Fizz'
     console.log(z + " Fizz");
-    paste.append += `
+    paste.innerHTML += `
     <div>${z + " Fizz"}</div>
     `;
   } else {
     console.log(z);
-    paste.append += `
+    paste.innerHTML += `
     <div>${z}</div>
     `;
   }
