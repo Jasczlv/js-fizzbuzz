@@ -13,7 +13,7 @@ const n = 100;
 const paste = document.getElementById("paste");
 
 // creare ciclo che stampa da 1 a 100
-for (i = 0; i < 100; i++) {
+for (let i = 0; i < 100; i++) {
   //variabile che rende possibile stampare a partire da 1 e arrivare a 100 mantenendo i = 0 e i < 100 (e non i <=100) e senza ripete i + 1 ad ogni punto
   let z = i + 1;
 
